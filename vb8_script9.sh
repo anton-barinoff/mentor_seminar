@@ -1,3 +1,8 @@
+#!/bin/bash
+set -o errexit
+set -o nounset
+
+
 echo "Введите команду для запуска в фоне: "
 read user_command
 
